@@ -1,8 +1,0 @@
-/*!
- * \author: Armand Leclercq
- * \file: config.hh.in
- * \date: Sun 09 Jul 2017 10:03:06 AM UTC
- */
-#ifndef CONFIG_HH_
-# define CONFIG_HH_
-#endif // !CONFIG_HH_
