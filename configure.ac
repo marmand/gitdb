@@ -4,7 +4,7 @@
 AC_PREREQ([2.69])
 AC_INIT([GitDB], [0.0.1], [armand@leclercq.site])
 AC_CONFIG_SRCDIR([src/main.cc])
-AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_HEADERS([src/config.hh])
 
 # Checks for programs.
 AC_PROG_CXX
