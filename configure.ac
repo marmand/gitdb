@@ -18,6 +18,12 @@ AX_BOOST_PROGRAM_OPTIONS
 # Checks for header files.
 
 # Checks for typedefs, structures, and compiler characteristics.
+AX_CXX_COMPILE_STDCXX_11([noext])
+AX_APPEND_COMPILE_FLAGS([-Wall],              [CXXFLAGS])
+AX_APPEND_COMPILE_FLAGS([-Wextra],            [CXXFLAGS])
+AX_APPEND_COMPILE_FLAGS([-Werror],            [CXXFLAGS])
+AX_APPEND_COMPILE_FLAGS([-pedantic],          [CXXFLAGS])
+AX_APPEND_COMPILE_FLAGS([-pedantic-errors],   [CXXFLAGS])
 
 # Checks for library functions.
 
