@@ -19,7 +19,7 @@ main(int ac, char* av[])
 
   bp::options_description mandatory("Mandatory options");
   mandatory.add_options()
-    ("output,o", "Output director, where to put SQL versions")
+    ("output,o", "Output directory, where to put SQL versions")
   ;
 
   desc.add(mandatory).add(available);
