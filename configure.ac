@@ -12,6 +12,8 @@ AC_CONFIG_FILES([Makefile])
 AC_PROG_CXX
 
 # Checks for libraries.
+AX_BOOST_BASE
+AX_BOOST_PROGRAM_OPTIONS
 
 # Checks for header files.
 
