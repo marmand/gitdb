@@ -1,6 +1,5 @@
 #                                               -*- Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-
 AC_PREREQ([2.69])
 AC_INIT([GitDB], [0.0.1], [armand@leclercq.site])
 AM_INIT_AUTOMAKE([-Wall -Werror foreign subdir-objects])
@@ -10,6 +9,11 @@ AC_CONFIG_FILES([Makefile])
 
 # Checks for programs.
 AC_PROG_CXX
+AM_PROG_AR
+
+# Create Libraries
+LT_PREREQ([2.4.2])
+LT_INIT()
 
 # Checks for libraries.
 AX_BOOST_BASE([1.55])
