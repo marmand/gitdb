@@ -3,7 +3,7 @@
 ##############
 
 _*
-src/config.hh.in
+config.hh.in
 
 #########
 ## VIM ##
