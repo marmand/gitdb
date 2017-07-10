@@ -1,0 +1,3 @@
+[submodule "sqldiff"]
+	path = sqldiff
+	url = ssh://git@phabricator.leclercq.site:2290/source/sqldiff.git
