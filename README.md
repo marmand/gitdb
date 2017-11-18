@@ -18,3 +18,10 @@ and ask for non automatically computable migration on
 ```
 gitdb commit
 ```
+
+
+Contribute
+----------
+
+If you ever want to contribute to this project, you can join me on http://phabricator.leclercq.site where
+you'll gain access to my projects issue tracker/repository.
